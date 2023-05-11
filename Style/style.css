@@ -122,11 +122,12 @@ header>.p1 {
 header>.btnmain {
   display: flex;
   flex-direction: row;
+  justify-content: center;
   flex-wrap: wrap;
   width: 21%;
   min-width: 165px;
   max-width: 369px;
-  row-gap: 15px;
+  gap: 15px;
   margin: auto;
 }
 
